@@ -6,58 +6,89 @@
 
 <form >
 
-    <div>
-  <label for="name">First Last Name*:</label><br>
-  <input type="text" id="fname" name="fname" value="Noura ">
-  <input type="text" id="lname" name="lname" value="Almusaynid">
-</div>
-  <label for="Organization">Organization:</label><br>
-  <input type="text" id="Organization" name="Organization" ><br>
 
 
-  <label for="Email">Email Address*:</label><br>
-  <input type="text" id="Email" name="Email" value=""><br>
+ <table>
+    <tr>
+      <td align="right">First Last Name*:</td>
+      <td align="left"><input type="text" name="first"  id="first" /></td>
+        <td align="left"><input type="text" name="last" id="last"/></td>
+    </tr>
+    
+ <tr>
+      <td align="right">Organization:</td>
+      <td align="left"><input type="text" name="Organization" /></td>
+    </tr>    
+    
+    
+    <tr>
+      <td align="right">Email Adress*:</td>
+      <td align="left"><input type="text" name="email" /></td>
+    </tr>
+    
+    
+    <tr>
+      <td align="right">Work phone:</td>
+      <td align="left"><input type="text" name="Work phone" /></td>
+    </tr>
+       
+    
+     <tr>
+      <td align="right">Home phone:</td>
+      <td align="left"><input type="text" name="Home phone" /></td>
+    </tr>
+          
+    
+      <tr>
+      <td align="right">Fax:</td>
+      <td align="left"><input type="text" name="Fax" /></td>
+    </tr>
+             
+       <tr>
+      <td align="right">Address 1*:</td>
+      <td align="left"><input type="text" name="Address1" /></td>
+    </tr>
+             
+       <tr>
+      <td align="right">Address 2:</td>
+      <td align="left"><input type="text" name="Address2" /></td>
+    </tr>
+                 
+       <tr>
+      <td align="right">City*:</td>
+      <td align="left"><input type="text" name="City" /></td>
+    </tr>
+            
+       <tr>
+      <td align="right">State Province:</td>
+      <td align="left"><input type="text" name="State Province" /></td>
+    </tr>
+              
+       <tr>
+      <td align="right">Zip Postal Code:</td>
+      <td align="left"><input type="text" name="Zip Postal Code" /></td>
+    </tr>
+              
+        
+        <tr>
+      <td align="right">Country*:</td>
+      <td align="left"><input type="text" name="Country" /></td>
+    </tr>
+                 
 
-
-  <label for="Work">Work phone:</label><br>
-  <input type="text" id="Work" name="Work" value=""><br>
-
-
-  <label for="Home">Home phone:</label><br>
-  <input type="text" id="Home" name="Home" value=""><br>
-
-
-  <label for="Fax">Fax:</label><br>
-  <input type="text" id="Fax" name="Fax" value=""><br>
-
-  <label for="Address">Address 1*:</label><br>
-  <input type="text" id="Address" name="Address" value=""><br>
-
-
-  <label for="Address">Address 2:</label><br>
-  <input type="text" id="Address2" name="Address" value=""><br>
-
-  <label for="City">City*:</label><br>
-  <input type="text" id="City" name="City" value=""><br>
-
-
-  <label for="State">State previwer:</label><br>
-  <input type="text" id="State" name="State" value=""><br>
-
-
-  <label for="Zip">Zip Postal Code:</label><br>
-  <input type="text" id="Zip" name="Zip" value=""><br>
-
-
-  <label for="Country">Country*:</label><br>
-  <input type="text" id="Country" name="Country" value=""><br>
+    
+  </table>
+ 
+ 
+<label for="required">*.required fields*:</label>
 
   <button onclick="myFunction()">Submit</button>
+  
 </form> 
 
 <script>
     function myFunction() {
-      alert("Congratulations ",getElementById("fname").value," ",getElementById("lname").value)
+      alert("Congratulations ",getElementById("first").value," ",getElementById("last").value)
     }
     </script>
 
